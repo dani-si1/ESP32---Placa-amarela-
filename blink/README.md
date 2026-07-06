@@ -1,59 +1,58 @@
-# ESP-2432S028 RGB LED Test
+# Teste do LED RGB – ESP-2432S028
 
-This project performs a basic functionality test of the onboard RGB LED available on the **ESP-2432S028** development board using the **ESP-IDF** framework.
+Este projeto realiza um teste básico de funcionamento do LED RGB integrado à placa **ESP-2432S028**, utilizando o framework **ESP-IDF**.
 
-## Objective
+## Objetivo
 
-The purpose of this test is to verify the correct operation of the three RGB LED channels by sequentially activating:
+O objetivo deste teste é validar o funcionamento dos três canais do LED RGB da placa, acionando sequencialmente as cores:
 
-* 🔴 Red
-* 🟢 Green
-* 🔵 Blue
+* 🔴 Vermelho
+* 🟢 Verde
+* 🔵 Azul
 
-This project is part of a broader hardware validation and embedded systems learning process using ESP-IDF and embedded software development best practices.
+Este projeto faz parte do processo de aprendizado e validação inicial de hardware, seguindo boas práticas de desenvolvimento de sistemas embarcados com o ESP-IDF.
 
-## Hardware
+## Hardware Utilizado
 
-* ESP-2432S028 development board
-* USB cable
-* ESP-IDF development environment
+* Placa ESP-2432S028
+* Cabo USB para alimentação e gravação
+* Ambiente de desenvolvimento ESP-IDF configurado
 
-## Build and Flash
+## Compilação e Gravação
 
-Set the target:
+Defina o alvo da placa:
 
 ```bash
 idf.py set-target esp32
 ```
 
-Build, flash, and monitor:
+Compile, grave e monitore a execução:
 
 ```bash
 idf.py -p PORT flash monitor
 ```
 
-Replace `PORT` with your serial port.
+Substitua `PORT` pela porta serial correspondente à sua placa.
 
-## Expected Behavior
+## Funcionamento Esperado
 
-After programming the board, the onboard RGB LED will continuously cycle through:
+Após a gravação do firmware, o LED RGB integrado executará continuamente a seguinte sequência:
 
-1. Red
-2. Green
-3. Blue
+1. Vermelho
+2. Verde
+3. Azul
 
-The serial monitor will display messages indicating the active color.
+O monitor serial exibirá mensagens indicando qual cor está sendo acionada.
 
-Example output:
+Exemplo de saída:
 
 ```text
-I (315) rgb_test: Starting RGB LED test
-I (1315) rgb_test: RED ON
-I (2315) rgb_test: GREEN ON
-I (3315) rgb_test: BLUE ON
+I (315) rgb_test: Iniciando teste do LED RGB
+I (1315) rgb_test: LED VERMELHO LIGADO
+I (2315) rgb_test: LED VERDE LIGADO
+I (3315) rgb_test: LED AZUL LIGADO
 ```
 
-## Purpose
+## Finalidade
 
-This project serves as an initial hardware validation step before developing more advanced applications and cybersecurity experiments on the ESP-2432S028 platform.
-
+Este projeto representa uma etapa inicial de validação da plataforma ESP-2432S028, servindo como base para o desenvolvimento de aplicações embarcadas mais avançadas e futuros experimentos relacionados à segurança e cibersegurança em dispositivos embarcados.
