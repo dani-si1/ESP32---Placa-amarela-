@@ -12,7 +12,7 @@ Além dos testes funcionais, este repositório busca aplicar e documentar **boas
 
 ## 🎯 Objetivos
 
-* Aprender e documentar o funcionamento da plataforma ESP32-S2.
+* Documentar o funcionamento da plataforma ESP32-S2 Yellow Board.
 * Explorar periféricos, interfaces e recursos do microcontrolador.
 * Desenvolver aplicações embarcadas utilizando a ESP-IDF.
 * Aplicar metodologias e boas práticas de desenvolvimento de firmware.
@@ -26,7 +26,6 @@ Além dos testes funcionais, este repositório busca aplicar e documentar **boas
 Este projeto utiliza:
 
 * **ESP-IDF (Espressif IoT Development Framework)**
-* **Espressif IDE**
 * **FreeRTOS**
 * **C/C++**
 * **Python (scripts auxiliares)**
