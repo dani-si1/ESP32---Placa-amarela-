@@ -2,7 +2,7 @@
 
 ## 📌 Sobre o Projeto
 
-Este repositório foi criado para documentar meus estudos, experimentos e testes realizados com a **ESP32-S2 Yellow Board**. O objetivo é explorar progressivamente os recursos da plataforma, iniciando pelos conceitos básicos de hardware e firmware e avançando para aplicações mais complexas, incluindo conectividade, sistemas embarcados em tempo real e cibersegurança aplicada a dispositivos IoT.
+Este repositório foi criado para documentar meus estudos, experimentos e testes realizados com a **ESP32-S2 Yellow Board**. O objetivo é explorar progressivamente os recursos da plataforma, iniciando pelos conceitos básicos de hardware e firmware e avançando para aplicações mais complexas, incluindo conectividade, sistemas embarcados em tempo real e cibersegurança aplicada em embarcados.
 
 Todos os desenvolvimentos são realizados utilizando a **ESP-IDF (Espressif IoT Development Framework)** e a **IDE oficial da Espressif**, permitindo uma maior proximidade com o ambiente profissional de desenvolvimento para dispositivos ESP32.
 
