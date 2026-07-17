@@ -2,6 +2,8 @@
 
 O **Dragon_DE** é um projeto de software embarcado desenvolvido para a placa **ESP32 Yellow Board (ESP32-2432S028)**.
 
+Softuwere inpirado no Bruce
+
 Este repositório armazenará a imagem completa do software, os códigos-fonte, configurações e arquivos necessários para instalar e executar o sistema na placa.
 
 O objetivo do projeto é desenvolver uma interface própria para o ESP32, utilizando a tela integrada da Yellow Board para apresentar menus, aplicativos e ferramentas de hardware.
@@ -11,7 +13,7 @@ O objetivo do projeto é desenvolver uma interface própria para o ESP32, utiliz
 #####
 
 ```markdown
-![Dragon_DE executando na ESP32 Yellow Board](docs/images/dragon_de_esp32.jpg)
+''![Dragon_DE executando na ESP32 Yellow Board](docs/images/dragon_de_esp32.jpg)
 ```
 
 <!-- Substitua o caminho acima pela localização da foto no repositório. -->
